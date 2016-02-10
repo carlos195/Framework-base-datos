@@ -1,0 +1,33 @@
+/**{
+	margin:0;
+	padding:0;
+}*/
+
+*,*:before,*:after{
+	box-sizing:inherit;
+}
+
+body{
+	background-color: #DDD;
+	font-family: "Arial",Sans-serif;
+}
+header{
+	background-color: #DCD;
+}
+
+#title{
+	display:flex;
+	flex:1;
+}
+
+.container{
+	display: block;
+	background-color: white;
+	height:50%;
+}
+
+#form-login{
+	display:flex;
+	flex:1 1 20%;
+	flex-direction:column;
+}
